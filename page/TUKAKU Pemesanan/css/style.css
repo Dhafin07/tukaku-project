@@ -212,3 +212,8 @@ textarea {
     background-color:#c11;
     color:#fff;
 }
+
+.datepicker-input{
+    width: 100% !important;
+    margin-bottom: 20px !important;
+}
