@@ -14,35 +14,38 @@
 </head>
 <body> 
 
+<div class="uk-grid-large">
     <div class="bg-yellow ">
         <div uk-grid>
             <div class="uk-width-1-6 uk-text-center icon-back">
                 <i class="fa fa-chevron-left"></i>
             </div>
-            <div class="uk-width-5-6 area-title-header">
+            <div class="uk-width-5-6">
                 <h1 class="area-masuk">MASUK</h1>
+                
             </div>
         </div>
     </div>
 
     
+</div>
 
 <div class="area-checkbox">
     <div class="area-emailku uk-margin-center">
         <label class="area-email">Email:</label>
-       <input type="text" class="uk-input" placeholder="Emailku">
+       <input type="text" class="uk-input" id="email_input" placeholder="Emailku">
     </div>
 </div>
 
 <div class="area-checkbox">
     <div class="area-emailku uk-margin-center">
         <label class="area-email">Password:</label>
-       <input type="password" class="uk-input" placeholder="Password">
+       <input type="password" class="uk-input" id="password_input" placeholder="Password">
     </div>
 </div>
 
 <div class="area-button uk-text-center">
-    <a href="../TUKAKU Beranda/index.html" class="area-button-lanjut uk-button">Masuk</a>
+    <button class="area-button-lanjut uk-button" onclick="login()">Lanjut</button>
 </div>
 
 <div class="area-icon">
@@ -61,8 +64,56 @@
     </div>
 </div>
 
+
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+
+<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-firestore.js"></script>
+
 <!-- UIkit JS -->
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
+
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyBQs0KRC2LcP5NKruxGzMJmmuR9_dbB89k",
+        authDomain: "tukaku-chat.firebaseapp.com",
+        databaseURL: "https://tukaku-chat-default-rtdb.firebaseio.com",
+        projectId: "tukaku-chat",
+        storageBucket: "tukaku-chat.appspot.com",
+        messagingSenderId: "1024885316723",
+        appId: "1:1024885316723:web:dee975b51b000969419e06",
+        measurementId: "G-5PFD7WHYHW"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+
+    function login(){
+        var email = document.getElementById('email_input').value;
+        var password = document.getElementById('password_input').value;
+        
+        firebase.auth().signInWithEmailAndPassword(email, password)
+        .then((userCredential) => {
+            window.location.href = "./../TUKAKU Beranda/index.html"
+        })
+        .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+
+            window.alert("Gagal Masuk")
+        });
+    }
+
+</script>
 </body>
 </html>

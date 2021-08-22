@@ -80,5 +80,5 @@ html, body{
 }
 
 .text-bawahnya-atas{
-  color: black;
+  color: black !important;
 }
