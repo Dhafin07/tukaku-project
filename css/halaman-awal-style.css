@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+html, body {
+
+    height: 100vh;
+    background-color: #6A7487;
+}
+
+.area-logo{
+    text-align: center;
+}
+
+.area-tukaku{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.area-title{
+    text-align: center;
+    color: #cfcfcf;
+    font-family: 'Poppins', sans-serif;
+}
+
+.area-logo > img{
+    width: 100%;
+}
+
+.area-daftar{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.area-masuk{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mkd-button{
+    color: #ffffff;
+}
+
+.area-center{
+   padding-top: 25%;
+}
+
+.area-button-daftar{
+    width: 264px;
+    background-color: black;
+    color: white !important;
+}
+
+.area-button-masuk{
+    width: 264px;
+    color: white !important;
+    border-color: black !important ;
+}

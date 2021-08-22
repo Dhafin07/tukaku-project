@@ -1,0 +1,79 @@
+html, body {
+    height: 100vh;
+    background-color: #6A7487;
+}
+
+.bg-yellow{
+    background-color: #FFF23D;
+    display: inline-block;
+    display: block;
+    color: black ;
+}
+
+.area-chat{
+    font-size: 24px;
+    padding: 15px 30px;
+
+}
+
+.uk-width-5-6{
+    padding-right: 60px;
+}
+
+.icon-back{
+    padding-top: 15px;
+   
+}
+
+.area-title-chat{
+    
+    text-align: center;
+}
+
+.red{
+    background-color: red;
+}
+
+
+
+.area-nama-user{
+    font-size: 18pt;
+}
+
+.area-user{
+    color: white;
+}
+.area-img-user{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.area-img-user > img {
+    object-fit: cover;
+    height: 70px;
+    width: 70px;
+    border-radius: 5px 5px 5px 5px ;
+}
+
+.area-nama-user > a{
+    margin-bottom: 0px !important;
+    color: white;
+}
+
+.area-time-user > p{
+    margin-bottom: 0px !important;
+    font-size: 9pt;
+    margin-top: 14px;
+}
+
+.area-chat-user > p{
+    font-size: 10pt;
+}
+
+.area-container-user{
+    padding-left: 0px !important;
+}
+
+.area-border-chat{
+    margin-top: 0px;
+}

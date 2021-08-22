@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Pemesanan</title>
+
+	<link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
+
+</head>
+<body>
+    <main class="">
+
+		<div class="uk-grid-large">
+            <div class="bg-yellow ">
+                <div uk-grid>
+                    <div class="uk-width-1-6 uk-text-center icon-back">
+                        <i class="fa fa-chevron-left"></i>
+                    </div>
+                    <div class="uk-width-5-6 area-title-chat">
+                        <h1 class="area-chat"><b>MEMBUAT PESANAN</b></h1>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="area-title-content">
+            <div class="uk-container">
+                <h4 class="banggunan"><b>Tukang Bangunan</b></h4>
+            </div>
+        </div>
+
+         <div class="area-content" >
+             <div class="uk-container">
+                <div class="area-perbaikan-tukang">
+                    <div class="title-perbaikan-tukang">
+                        <h4 class="area-color-title"><b>Butuh perbaikan tukang apa?</b></h4>
+                    </div>
+                    
+                    <div uk-grid>
+                        <div class="uk-width-1-2 ">
+                            <div id="ck-button">
+                                <label>
+                                   <input type="checkbox" value="1"><span>Tukang Cat</span>
+                                </label>
+                             </div>
+                        </div>
+                        <div class="uk-width-1-2 ">
+                            <div id="ck-button">
+                                <label>
+                                   <input type="checkbox" value="1"><span>Tukang Besi</span>
+                                </label>
+                             </div>
+                        </div>
+                        <div class="uk-width-1-2 ">
+                            <div id="ck-button">
+                                <label>
+                                   <input type="checkbox" value="1"><span>Tukang Kayu</span>
+                                </label>
+                             </div>
+                        </div>
+                        <div class="uk-width-1-2 ">
+                            <div id="ck-button">
+                                <label>
+                                   <input type="checkbox" value="1"><span>Tukang Batu</span>
+                                </label>
+                             </div>
+                        </div>
+                        <!-- <from action="/actionpage.php"> -->
+                        <!-- <input type="checkbox" id="vehicle1" name="vehicle1" value="Tukang-Cat">
+                        <label file="vehicle1" style="color: white;">Tukang Cat</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Tukang-Kayu">
+                        <label file="vehicle1" style="color:white">Tukang Kayu</label><br>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Tukang-Besi">
+                        <label file="vehicle1" style="color: white;">Tukang Besi</label><br>
+                        <input type="checkbox" id="vehicle4" name="vehicle4" value="Tukang-Batu">
+                        <label file="vehicle1" style="color: white;">Tukang Batu</label><br> -->
+                        <!-- </from> -->
+                     
+                    </div>
+                    
+                    <div>
+                        <textarea class="area-textarea" name="" id=""  rows="10" 
+                        placeholder="Tulis detail layanan yang kamu butuhkan disini" 
+                        style="font-family:'Roboto', sans-serif; color: #504D4E; font-size: 12px;
+                        margin-top: 16px; border-radius: 5px;" cols="45"></textarea>
+                    </div>
+
+                    <div class="area-garis1">
+                    <hr class="border-pemesanan"/>
+                    </div>
+                    
+                </div>
+
+                <div class="area-alamat">
+                    <div uk-grid>
+                        <div class="uk-width-5-6">
+                            <h4 class="area-color-alamat"><b>Alamat</b></h4>
+                        </div>
+                        <div class="uk-width-1-6">
+                            <a href="../TUKAKU MAP/map.html"><i class="fa fa-map-marker" style="color: #CECECE; font-size: 16pt;"></i></a> 
+                            
+                        </div>
+                    </div>
+
+                <div>
+                    <textarea class="area-textarea" name="" id=""  rows="10"  cols="45"
+                    placeholder="Masukkan Alamat" style="font-family: 'Roboto', sans-serif; color: #504D4E;
+                    font-size: 12px; border-radius: 5px;"></textarea>
+
+                </div>
+
+                <div class="area-garis2">
+                    <hr class="border-pemesanan" >
+                </div>
+
+                </div>
+
+                <div class="area-masukkan-foto-masalah">
+                    <h4 class="area-color-masukkan-foto"><b>Masukkan Foto Masalah</b></h4>
+
+                    <div>
+                        <input type="file" />
+                        <hr class="border-pemesanan">
+                    </div>
+                </div>
+
+                <div class="area-jadwalkan">
+                    
+
+                    <div uk-grid>
+                        <div class="uk-width-5-6">
+                            <h4 class="area-color-jadwalkan"><b>Jadwalkan</b></h4>
+                        </div>
+                        <div class="uk-width-1-6">
+                            <a href="#modal-jadwalkan" uk-toggle><i class="fa fa-chevron-right" style="color: #CECECE;"></i></a> 
+                            <div id="modal-jadwalkan" class="uk-flex-top" uk-modal>
+                                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                                
+                                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                                
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <hr class="border-pemesanan">
+                    </div>
+                
+                </div>
+                
+                <div class="area-sesi-pengerjaan">
+                    <div uk-grid>
+                        <div class="uk-width-5-6">
+                            <h4 class="area-color-sesi-pengerjaan"><b>Sesi Pengerjaan</b></h4>
+                        </div>
+                        <div class="uk-width-1-6">
+                            <a href="#modal-sesi-pengerjaan" uk-toggle><i class="fa fa-chevron-right" style="color: #CECECE;"></i></a> 
+                            <div id="modal-sesi-pengerjaan" class="uk-flex-top" uk-modal>
+                                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                                
+                                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                                
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    
+                                    <div uk-grid>
+                                        <div class="bg-yellow">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="area-garis5">
+                    <hr class="border-pemesanan" >
+                </div>
+
+                <div class="area-tukangku">
+                    <div uk-grid>
+                        <div class="uk-width-5-6">
+                            <h4 class="area-color-tukangku"><b>Tukangku</b></h4>
+                        </div>
+                        <div class="uk-width-1-6">
+                            <a href="#modal-tukangku" uk-toggle><i class="fa fa-chevron-right" style="color: #CECECE;"></i></a> 
+                            <div id="modal-tukangku" class="uk-flex-top" uk-modal>
+                                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                                
+                                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                                
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    
+                                    <div uk-grid>
+                                        <div class="bg-yellow">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                    
+                
+             </div>
+        </div>
+        <!-- nav bar -->
+        <div class="navbar">
+            <a href="../TUKAKU Pembayaran/index.html" class="uk-button uk-button-secondary area-button-navbar ">
+                <b>
+                    Selanjutnya
+                </b>
+            </a>
+        </div>
+
+	</main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
+
