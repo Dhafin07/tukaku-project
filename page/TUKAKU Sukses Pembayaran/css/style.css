@@ -1,0 +1,192 @@
+html, body {
+    background-color: #6A7487;
+  }
+  
+  .bg-yellow{
+    background-color: #FFF23D;
+    display: inline-block;
+    display: block;
+    color: black ;
+  
+  }
+  
+  .area-chat{
+    font-size: 24px;
+    padding: 15px 30px;
+  
+  }
+  
+  .uk-width-5-6{
+    padding-right: 60px;
+  }
+  
+  .icon-back{
+    padding-top: 15px;
+   
+  }
+
+  .area-pembayaran-berhasil {
+    color: white;
+    padding-top: 32px;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .area-checklist {
+    color: #CDCDCD;
+    padding-top: 28px;
+    font-size: 17px;
+  }
+
+  .bg-red {
+      background-color: red;
+  }
+
+  .bg-green {
+      background-color: green;
+  }
+
+  .garis {
+    border: #4F4F4F 1px solid;
+  }
+
+  .area-garis {
+      width: 100%;
+      margin-top: 23px;
+  }
+
+  .area-total-pembayaran {
+    color: white;
+    margin-top: 24px;
+    font-size: 18px;
+    text-align: right;
+  }
+  
+  .area-title-total-pembayaran {
+    color: #CDCDCD;
+    margin-top: 24px;
+    font-size: 17px;
+  }
+
+  .area-kode {
+    color: white;
+    font-size: 18px;
+    text-align: right;
+  }
+  
+  .area-title-kode-pemesanan {
+    color: #CDCDCD;
+    font-size: 17px;
+  }
+
+  .area-cara-pembayaran {
+    color: white;
+    font-size: 18px;
+    text-align: right;
+  }
+  
+  .area-title-cara-pembayaran {
+    color: #CDCDCD;
+    font-size: 17px;
+  }
+
+  .area-header-struk {
+    background-color: #FFF23D;
+    padding: 5px;
+  }
+
+  .area-bg-struk {
+    background-color: #EAE8E7;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .logo-tuka {
+   width: 45px;
+  }
+
+.title-struk {
+  padding-top: 5px;
+}  
+
+.area-title-struk {
+  padding-left: 5px !important;
+}
+
+.text-struk-2 {
+  margin-top: 0px !important;
+  font-size: 12px;
+}
+
+.bg-detail-struk {
+  background-color: white;
+
+}
+
+.text-struk-1 {
+  margin-bottom: 0px !important;
+}
+
+.area-detail-struk {
+  margin-top: 5px !important;
+}
+
+.text-berhasil {
+  font-size: 16px;
+  text-align: center;
+}
+
+.area-isi-struk {
+  font-size: 14px;
+  margin-left: 8px !important;
+}
+
+.area-isi-struk-2 {
+  margin-right: 8px !important;
+}
+
+.area-table td{
+  padding: 10px 10px !important;
+}
+
+.area-content-struk{
+  margin-bottom: 90px !important;
+}
+
+.value-struk {
+  text-align: right;
+  font-weight: bold;
+}
+
+.border-bottom-struk {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #DDDBD9;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 44px;
+  padding-top: 16px;
+  text-align:center;
+  border-radius: 0px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.navbar > a {
+  padding: 16px;
+}
+
+.area-button-navbar {
+  border-radius: 5px !important;
+  font-size: 18px;
+  width: 280px !important;
+}
+
+.icon-back > a {
+  text-decoration: none;
+  color: black;
+}

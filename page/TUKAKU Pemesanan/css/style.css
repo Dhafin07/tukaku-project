@@ -113,6 +113,11 @@ html, body {
     padding-top: 15px;
   }
 
+  .icon-back > a {
+      text-decoration: none;
+      color: black;
+  }
+
   .area-button-navbar {
       border-radius: 5px !important;
       font-size: 18px;
