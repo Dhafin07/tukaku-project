@@ -12,11 +12,6 @@ html, body {
     width: 100%;
 }
 
-.area-title-header{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
-
 .area-masuk{
      font-size: 24px; 
      padding: 15px 30px;
@@ -53,7 +48,7 @@ html, body {
 }
 
 .area-button{
-   padding-top: 450px;
+   padding-top: 50px;
 }
 
 .icon-back > i{
@@ -66,5 +61,4 @@ html, body {
     text-align: center;
     color: black;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
