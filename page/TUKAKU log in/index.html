@@ -14,7 +14,6 @@
 </head>
 <body> 
 
-<div class="uk-grid-large">
     <div class="bg-yellow ">
         <div uk-grid>
             <div class="uk-width-1-6 uk-text-center icon-back">
@@ -22,13 +21,9 @@
             </div>
             <div class="uk-width-5-6">
                 <h1 class="area-masuk">MASUK</h1>
-                
             </div>
         </div>
     </div>
-
-    
-</div>
 
 <div class="area-checkbox">
     <div class="area-emailku uk-margin-center">
@@ -104,6 +99,7 @@
         
         firebase.auth().signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
+            localStorage.setItem("token",userCredential.user.refreshToken)
             window.location.href = "./../TUKAKU Beranda/index.html"
         })
         .catch((error) => {
