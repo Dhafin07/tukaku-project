@@ -221,4 +221,19 @@ textarea {
 .datepicker-input{
     width: 100% !important;
     margin-bottom: 20px !important;
+    margin-top: 16px;
+}
+
+.area-text-jadwal {
+    color: white;
+    font-size: 18px;
+}
+
+.area-pilih {
+    margin-top: 16px !important;
+}
+
+.button-pilih {
+    margin: 10px 0px !important;
+    width: 100%;
 }
