@@ -13,7 +13,6 @@ html, body {
 .area-pilih-tukang{
     font-size: 24px;
     padding: 15px 30px;
-
 }
 
 .uk-width-5-6{
@@ -21,9 +20,13 @@ html, body {
 }
 
 .icon-back{
-    padding-top: 4px;
-   
-}
+    padding-top: 15px;
+  }
+
+  .icon-back > a {
+      text-decoration: none;
+      color: black;
+  }
 
 .area-title-chat{
     
