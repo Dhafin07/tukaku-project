@@ -236,4 +236,27 @@ textarea {
 .button-pilih {
     margin: 10px 0px !important;
     width: 100%;
+    background-color: black !important;
+    color: white !important;
+    border-radius: 10px !important;
+    margin-top: 48px !important;
 }
+
+.header-modal-sesi {
+    background-color: #FFF23D !important;
+    text-align: center;
+}
+
+.area-text-sesi{
+    color: #6C696A ;
+    font-size: 10pt;
+}
+
+.tangal-jadwal{
+    color: black;
+}
+
+.area-pilih-sesi{
+    color: black !important;
+}
+
