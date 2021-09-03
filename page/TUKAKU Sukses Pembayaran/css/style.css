@@ -176,10 +176,6 @@ html, body {
   padding-top: 16px;
 }
 
-.navbar > a {
-  padding: 16px;
-}
-
 .area-button-navbar {
   border-radius: 5px !important;
   font-size: 18px;
