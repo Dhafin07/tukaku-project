@@ -1,0 +1,74 @@
+html, body {
+
+    height: 100vh;
+    background-color: #6A7487;
+}
+
+.bg-yellow{
+    background-color: #FFF23D;
+    display: block;
+    display: inline-block;
+    color:black;
+    width: 100%;
+}
+
+.area-daftar{
+     font-size: 24px; 
+     padding: 15px 60px;
+    
+}
+
+.uk-width-5-6 {
+     padding-right: 40px;
+}
+
+.uk-margin-center {
+    width: 350px;
+    border: white;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.area-email{
+    margin-top: 10px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 5px;
+    
+}
+
+.uk-margin-center > input{
+    margin-top: 10px;
+}
+
+.area-button-lanjut{
+    background-color: black;
+    width: 350px;
+    color: white !important;
+   
+}
+
+.area-button{
+   padding-top: 50px;
+}
+
+.icon-back > i{
+    padding: 20px;
+}
+
+.area-icon {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+
+.uk-input{
+    background-color: #9091A5 !important;
+   
+}
+
+::placeholder{
+     color: #ffffff !important;
+}

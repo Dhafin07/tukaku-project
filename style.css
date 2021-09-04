@@ -1,0 +1,11 @@
+html, body {
+    height: 100vh;
+    background-color: #6A7487;
+  }
+
+ .area-logo{
+     padding-top: 220px;
+     padding-left: 90px;
+     width: 200px;
+     height: 200px;
+ }
