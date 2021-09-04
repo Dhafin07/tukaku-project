@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.font-header {
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    background-color: #6A7487;
+  }
+
+
+  .bg-yellow{
+    background-color: #FFF23D;
+    display: inline-block;
+    display: block;
+    color: black ;
+  }
+
+  .area-chat{
+    font-size: 20px;
+    padding: 15px 30px;
+  }
+
+.bg-color-red {
+    background-color: red;
+}
+
+.bg-color-blue {
+    background-color: blue;
+}
+
+.area-back-icon {
+    text-align: center;
+}
+
+.ukuran-icon {
+    font-size: 25pt;
+}
+
+.area-title-content {
+    background-color: #DDDBD9;
+}
+
+.area-content {
+    background-color: #6A7487;
+    padding-bottom: 100px;
+}
+
+.title-perbaikan-tukang {
+    font-family: 'Roboto', sans-serif;
+}
+
+.area-title-layanan {
+    background-color: #DDDBD9;
+    width: 45%;
+    height: 30%;
+}
+
+.area-color-title {
+    color: white;
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+.mkd-bar-yellow {
+    background-color: #FFF23D;
+    width: 10%;
+    height: 10%;
+}
+
+.mkd-button {
+    text-align: center;
+}
+
+.area-textarea {
+    background-color: #DDDBD9;
+    margin-bottom: 32px;
+}
+
+.ukuran-hr {
+    width: 100%;
+}
+
+.warna-hr {
+    color: red;
+}
+
+.area-selanjutnya {
+    background-color: #6A7487;
+}
+
+.mkd-bar-black {
+    background-color: black;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #DDDBD9;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    padding-top: 16px;
+    text-align:center;
+    border-radius: 0px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+  
+
+  .icon-back{
+    padding-top: 15px;
+  }
+
+  .icon-back > a {
+      text-decoration: none;
+      color: black;
+  }
+
+  .area-button-navbar {
+      border-radius: 5px !important;
+      font-size: 18px;
+      width: 280px !important;
+  }
+
+  .area-color-alamat {
+      color: white;
+      font-size: 18px; 
+      padding-bottom: 16px;
+  }
+
+  .area-color-masukkan-foto {
+      color: white;
+      font-size: 18px;
+  }
+
+  .area-color-jadwalkan {
+      color: white;
+      font-size: 18px;
+      padding-bottom: 20px;
+  }
+
+  .banggunan {
+      color: black;
+      font-size: 18px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+  }
+
+.area-color-sesi-pengerjaan {
+    font-size: 18px;
+    color: white;
+    padding-bottom: 16px;
+}
+
+.area-title-chat {
+    padding-left: 0px !important;
+}
+
+.border-pemesanan {
+    border: #4F4F4F 1px solid;
+}
+
+textarea {
+    padding: 8px;
+    resize:vertical;
+}
+
+.area-color-tukangku  {
+    color: white;
+    font-size: 18px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+#ck-button {
+    border-radius:4px;
+    border:2px solid #D0D0D0;
+    overflow:auto;
+    float:left;
+    width: 100%;
+    text-align: center;
+}
+
+#ck-button label {
+    float:left;
+   width: 100%;
+   color: white;
+   font-size: 11pt;
+}
+
+#ck-button label span {
+    text-align:center;
+    padding:3px 0px;
+    display:block;
+    border-radius:4px;
+}
+
+#ck-button label input {
+    position:absolute;
+    top:-20px;
+}
+
+#ck-button input:hover + span {
+    background-color:#efE0E0;
+}
+
+#ck-button input:checked + span {
+    background-color:#FFF23D;
+    color:black;
+}
+
+#ck-button input:checked:hover + span {
+    background-color:#c11;
+    color:#fff;
+}
+
+.datepicker-input{
+    width: 100% !important;
+    margin-bottom: 20px !important;
+    margin-top: 16px;
+}
+
+.area-text-jadwal {
+    color: white;
+    font-size: 18px;
+}
+
+.area-pilih {
+    margin-top: 16px !important;
+}
+
+.button-pilih {
+    margin: 10px 0px !important;
+    width: 100%;
+    background-color: black !important;
+    color: white !important;
+    border-radius: 10px !important;
+    margin-top: 48px !important;
+}
+
+.header-modal-sesi {
+    background-color: #FFF23D !important;
+    text-align: center;
+}
+
+.area-text-sesi{
+    color: #6C696A ;
+    font-size: 10pt;
+}
+
+.tangal-jadwal{
+    color: black;
+}
+
+.area-pilih-sesi{
+    color: black !important;
+}
+
