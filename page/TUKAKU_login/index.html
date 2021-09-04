@@ -108,7 +108,7 @@
         firebase.auth().signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
             localStorage.setItem("token",userCredential.user.refreshToken)
-            window.location.href = "./../TUKAKU Beranda/index.html"
+            window.location.href = "./../TUKAKU_Beranda/index.html"
         })
         .catch((error) => {
             var errorCode = error.code;
