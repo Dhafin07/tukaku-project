@@ -37,7 +37,7 @@
 
         <div class="area-title-content">
             <div class="uk-container">
-                <h4 class="banggunan"><b>Tukang Bangunan</b></h4>
+                <h4 class="banggunan" id="title-pemesanan"><b>Tukang Bangunan</b></h4>
             </div>
         </div>
 
@@ -52,41 +52,31 @@
                         <div class="uk-width-1-2 ">
                             <div id="ck-button">
                                 <label>
-                                   <input type="checkbox" value="1"><span>Tukang Cat</span>
+                                   <input id="tukang_1" type="checkbox" value="1"><span>Tukang Cat</span>
                                 </label>
                              </div>
                         </div>
                         <div class="uk-width-1-2 ">
                             <div id="ck-button">
                                 <label>
-                                   <input type="checkbox" value="1"><span>Tukang Besi</span>
+                                   <input id="tukang_2" type="checkbox" value="1"><span>Tukang Besi</span>
                                 </label>
                              </div>
                         </div>
                         <div class="uk-width-1-2 ">
                             <div id="ck-button">
                                 <label>
-                                   <input type="checkbox" value="1"><span>Tukang Kayu</span>
+                                   <input id="tukang_3" type="checkbox" value="1"><span>Tukang Kayu</span>
                                 </label>
                              </div>
                         </div>
                         <div class="uk-width-1-2 ">
                             <div id="ck-button">
                                 <label>
-                                   <input type="checkbox" value="1"><span>Tukang Batu</span>
+                                   <input id="tukang_4" type="checkbox" value="1"><span>Tukang Batu</span>
                                 </label>
                              </div>
                         </div>
-                        <!-- <from action="/actionpage.php"> -->
-                        <!-- <input type="checkbox" id="vehicle1" name="vehicle1" value="Tukang-Cat">
-                        <label file="vehicle1" style="color: white;">Tukang Cat</label><br>
-                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Tukang-Kayu">
-                        <label file="vehicle1" style="color:white">Tukang Kayu</label><br>
-                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Tukang-Besi">
-                        <label file="vehicle1" style="color: white;">Tukang Besi</label><br>
-                        <input type="checkbox" id="vehicle4" name="vehicle4" value="Tukang-Batu">
-                        <label file="vehicle1" style="color: white;">Tukang Batu</label><br> -->
-                        <!-- </from> -->
                      
                     </div>
                     
@@ -222,6 +212,22 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
     <script>
         $("#datepicker_tukaku").datepicker();
+        var urlParams = new URLSearchParams(window.location.search);
+        console.log(urlParams.get('tukang')); // "edit"
+        switch (urlParams.get('tukang')) {
+            case "bangunan":
+                document.getElementById("title-pemesanan").innerHTML= "Tukang Bangunan"
+            break;
+            case "listrik":
+                document.getElementById("title-pemesanan").innerHTML= "Tukang Listrik"
+            break;
+            case "pipa":
+                document.getElementById("title-pemesanan").innerHTML= "Tukang Pipa"
+            break;
+            case "ac":
+                document.getElementById("title-pemesanan").innerHTML= "Tukang AC"
+            break;
+        }
     </script>
 </body>
 </html>
