@@ -1,5 +1,4 @@
 html, body {
-    height: 100vh;
     background-color: #6A7487;
 }
 
@@ -8,6 +7,8 @@ html, body {
     display: inline-block;
     display: block;
     color: black ;
+    position: fixed;
+    width: 100%;
 }
 
 .area-pilih-tukang{
@@ -104,4 +105,8 @@ html, body {
 
 .area-nama-tukang > a{
     color: white;
+}
+
+.area-content{
+    padding-top: 70px;
 }
